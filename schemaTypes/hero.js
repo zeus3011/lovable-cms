@@ -23,11 +23,25 @@ export default {
                   fields: [
                     { name: "text", type: "string" },
                     { name: "link", type: "string" },
+                    { name: "openInModal", type: "boolean", title: "Open In Consultation Modal", initialValue: false },
                   ],
                 },
               ],
             },
-            
+            {
+              name: "button2",
+              type: "array",
+              of: [
+                {
+                  type: "object",
+                  fields: [
+                    { name: "text", type: "string" },
+                    { name: "link", type: "string" },
+                    { name: "openInModal", type: "boolean", title: "Open In Consultation Modal", initialValue: false },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

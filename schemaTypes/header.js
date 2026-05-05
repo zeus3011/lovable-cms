@@ -21,5 +21,11 @@ export default {
     { name: "phone", type: "string", title: "Phone Number" },
     { name: "ctaText", type: "string", title: "CTA Text" },
     { name: "ctaLink", type: "string", title: "CTA Link" },
+    {
+      name: "ctaOpenInModal",
+      type: "boolean",
+      title: "Header CTA Opens Modal",
+      initialValue: false,
+    },
   ],
 };

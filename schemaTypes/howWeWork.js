@@ -54,6 +54,7 @@ export default {
       fields: [
         { name: "text", type: "string", title: "Button Text" },
         { name: "link", type: "string", title: "Button Link" },
+        { name: "openInModal", type: "boolean", title: "Open In Consultation Modal", initialValue: false },
       ],
     },
     {
@@ -63,6 +64,7 @@ export default {
       fields: [
         { name: "text", type: "string", title: "Button Text" },
         { name: "link", type: "string", title: "Button Link" },
+        { name: "openInModal", type: "boolean", title: "Open In Consultation Modal", initialValue: false },
       ],
     },
   ],

@@ -9,5 +9,6 @@ import outcomes from "./outcomes";
 import insights from "./insights";
 import cta from "./cta";
 import footer from "./footer";
+import consultationModal from "./consultationModal";
 
-export const schemaTypes = [hero, service, about, header, homepage, howWeWork, trustStrip, outcomes, insights, cta, footer];
+export const schemaTypes = [hero, service, about, header, homepage, howWeWork, trustStrip, outcomes, insights, cta, footer, consultationModal];

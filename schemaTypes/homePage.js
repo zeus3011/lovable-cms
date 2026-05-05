@@ -54,5 +54,10 @@ export default {
       title: "Footer Section",
       type: "footer",
     },
+    {
+      name: "consultationModal",
+      title: "Consultation Modal",
+      type: "consultationModal",
+    },
   ],
 };

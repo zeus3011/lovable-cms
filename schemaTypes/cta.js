@@ -29,5 +29,12 @@ export default {
       title: "Button Link",
       type: "string",
     },
+    {
+      name: "openInModal",
+      title: "Open In Consultation Modal",
+      type: "boolean",
+      initialValue: false,
+      description: "If enabled, clicking this CTA opens the consultation modal instead of navigating.",
+    },
   ],
 };
